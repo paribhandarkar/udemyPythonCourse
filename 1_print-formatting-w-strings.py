@@ -15,3 +15,8 @@ print("the reuslt is {r:3.4f}".format(r=result))
 
 print("{0:<8} | {1:>9}".format('left', 'right'))
 print("{0:=<8} | {1:a^10} | {2:->9}".format('left', 'center', 'right'))
+
+num = 23.45678
+print("My 10 character, four decimal number is:{0:10.4f}".format(num))
+print(f"My 10 character, four decimal number is:{num:{10}.{6}}")
+# Note that with f-strings, precision refers to the total number of digits, not just those following the decimal. This fits more closely with scientific notation and statistical analysis.
