@@ -15,6 +15,15 @@ def old_macdonald(name):
 
 print(old_macdonald('macdonald'))
 
+# another method
+'''
+def old_macdonald(name):
+    if len(name) > 3:
+        return name[:3].capitalize() + name[3:].capitalize()
+    else:
+        return 'Name is too short!'
+'''
+
 '''
 MASTER YODA: Given a sentence, return a sentence with the words reversed
 
