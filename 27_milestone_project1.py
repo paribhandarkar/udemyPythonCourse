@@ -1,18 +1,18 @@
-def game_on():
-    msg = 'some'
-    while msg not in ['y', 'n']:
-        msg = input("do u want to play game? y or n? ")
+# def game_on():
+#     msg = 'some'
+#     while msg not in ['y', 'n']:
+#         msg = input("do u want to play game? y or n? ")
 
-    if msg not in ['y', 'n']:
-        print('please only select from y or n')
+#     if msg not in ['y', 'n']:
+#         print('please only select from y or n')
 
-    if msg == 'y':
-        return True
-    else:
-        return False
+#     if msg == 'y':
+#         return True
+#     else:
+#         return False
 
 
-print(game_on())
+# print(game_on())
 
 
 def display_board(test_board):
