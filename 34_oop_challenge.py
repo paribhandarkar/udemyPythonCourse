@@ -26,6 +26,7 @@ class Account:
 
     def withdraw(self, wd_amt):
         if self.balance >= wd_amt:
+            self.balance = self.balance - wd_amt
             print("Withdrawal Accepted")
         else:
             print("Funds Unavailable!")
